@@ -1,7 +1,7 @@
-let url = './assets/test-js.pdf';
+let url = 'assets/test-js.pdf';
 
 //  workerSrc的路径
-PDFJS.workerSrc = './js/pdf.worker.js';
+PDFJS.workerSrc = 'js/pdf.worker.js';
 
 let pdfDoc = null,
   pageNum = 1,
