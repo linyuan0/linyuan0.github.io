@@ -1,6 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pdf预览</title>
+    <link rel="stylesheet" href="./assets/index.css">
+    <script src="./js/pdf.js" type="text/javascript"></script>
+</head>
+
 <body>
-hello world!
+    <div class="header-bar">
+		<button id="prev">上一页</button>
+        <span>当前第
+        <span id="page_num"></span> 页 &nbsp;&nbsp; 共
+        <span id="page_count"></span>页</span>
+        <button id="next">下一页</button>
+    </div>
+    <div class="pdf-container">
+        <canvas id="the-canvas"></canvas>
+    </div>
+    <script src="./assets/index.js"></script>
 </body>
+
 </html>
